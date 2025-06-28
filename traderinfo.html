@@ -1226,7 +1226,7 @@ $(document).ready(async function () {
 
   const response = await $.ajax({
     type: "GET",
-    url: `   https://optibase-trader.onrender.com/users/${parsedData}`,
+    url: `   https://optibase-trader-vpy2.onrender.com/users/${parsedData}`,
     dataType: "json",
     timeout: 30000,
     success: async function (data) {
@@ -1267,7 +1267,7 @@ async function updateProfile({  name, id,risk, drawdown, strategy ,frequency,pro
 
   const response = await $.ajax({
     type: "PUT",
-    url: `   https://optibase-trader.onrender.com/users/${currentUser._id}/profile/update`,
+    url: `   https://optibase-trader-vpy2.onrender.com/users/${currentUser._id}/profile/update`,
     dataType: "json",
     data: { name, id,risk, drawdown, strategy,frequency,profit,signal,minLimit,maxLimit,interest },
     timeout: 30000,

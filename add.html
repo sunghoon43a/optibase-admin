@@ -9568,7 +9568,7 @@
     
       const response = await $.ajax({
         type: "GET",
-        url: `   https://optibase-trader.onrender.com/users/${parsedData}`,
+        url: `   https://optibase-trader-vpy2.onrender.com/users/${parsedData}`,
         dataType: "json",
         timeout: 30000,
         success: async function (data) {
@@ -9693,7 +9693,7 @@ var userId=localStorage.getItem("userem")
     
 await $.ajax({
   type: "POST",
-  url: `  https://optibase-trader.onrender.com/transactions/${trader._id}/Tdeposit`,
+  url: `  https://optibase-trader-vpy2.onrender.com/transactions/${trader._id}/Tdeposit`,
   dataType: "json",
   data: { ...storedTrades },
   timeout: 30000,
