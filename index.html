@@ -392,7 +392,7 @@ SignIn
         async function fetchUser() {
               const response = await $.ajax({
                 type: "GET",
-                url: 'https://optibase-render-g0uw.onrender.com/users',
+                url: 'https://optibase-render-xkg4.onrender.com/users',
                 dataType: "json",
                 timeout: 30000,
               });
@@ -427,7 +427,7 @@ SignIn
          async function loginUser({ email, password }) {
              await $.ajax({
                  type: "POST",
-                 url: "https://optibase-render-g0uw.onrender.com/auth/login",//"http://localhost:8080/auth/login",
+                 url: "https://optibase-render-xkg4.onrender.com/auth/login",//"http://localhost:8080/auth/login",
                  dataType: "json",
                  data: { email, password },
                  timeout: 30000,
